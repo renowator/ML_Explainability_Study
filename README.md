@@ -53,14 +53,15 @@ The benefits of using Machine Learning Models over traditional algorithmic appro
   After some consideration the metrics used in this project was changed to AUC score that provides a reliable way to combine Recall and True Negative (aka Specificity) accuracy rates. The ROC curve plots both of these rates on a graph as the probability threshold to determine True prediction grows gradually from 0 to 1. The 0 point here obviously will miss both all the True and False Positives as it classifies each sample as false, this will make Specificity high. As this threshold increases, both Recall will increase, but Specificity is expected to decrease(unless the classifier is perfect and has no False Negative predictions). A totally random classifier will have equal dynamics for Recall and Specificity, therefore, making the area under such straight line from 0 to 1 equal to ½. A good classifier will then have a high Recall making the area under such curve greater up until it forms a square that has area of 1.
 
  ## Results
- 	The study showed that in a Machine Learning model not all the data features are relevant for determining correct predictions. For this project 1/2 of most important features were selected and new models were trained using only these features. The study showed that the new models had an accuracy close to the accuracy of models with full-feature datasets.
+  
+  The study showed that in a Machine Learning model not all the data features are relevant for determining correct predictions. For this project 1/2 of most important features were selected and new models were trained using only these features. The study showed that the new models had an accuracy close to the accuracy of models with full-feature datasets.
 
-Parameter Grid Search Results:
+#### Parameter Grid Search Results:
 ![Parameter Grid Search Results](https://raw.githubusercontent.com/renowator/ML_Explainability_Study/master/imgs/results2.png)
 
-Top Important Features Results:
+#### Top Important Features Results:
 ![Top Important Features Results](https://raw.githubusercontent.com/renowator/ML_Explainability_Study/master/imgs/results2.png)
 
-New Model Performance Results:
+#### New Model Performance Results:
 ![New Model Performance Results](https://raw.githubusercontent.com/renowator/ML_Explainability_Study/master/imgs/results3.png)
 
