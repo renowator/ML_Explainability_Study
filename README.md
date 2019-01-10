@@ -57,7 +57,7 @@ The benefits of using Machine Learning Models over traditional algorithmic appro
   The study showed that in a Machine Learning model not all the data features are relevant for determining correct predictions. For this project 1/2 of most important features were selected and new models were trained using only these features. The study showed that the new models had an accuracy close to the accuracy of models with full-feature datasets.
 
 #### Parameter Grid Search Results:
-![Parameter Grid Search Results](https://raw.githubusercontent.com/renowator/ML_Explainability_Study/master/imgs/results2.png)
+![Parameter Grid Search Results](https://raw.githubusercontent.com/renowator/ML_Explainability_Study/master/imgs/results1.png)
 
 #### Top Important Features Results:
 ![Top Important Features Results](https://raw.githubusercontent.com/renowator/ML_Explainability_Study/master/imgs/results2.png)
